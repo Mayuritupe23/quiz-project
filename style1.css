@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbf3f3;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+.quiz-section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #19191a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Style each quiz section differently */
+.HTML {
+    border: 2px solid #e74c3c;
+}
+
+.CSS {
+    border: 2px solid #2ecc71;
+}
+
+.Verbal {
+    border: 2px solid #f39c12;
+}
+
+.Reasoning {
+    border: 2px solid #8e44ad;
+}
+
+.Quantitative {
+    border: 2px solid #3498db;
+}
